@@ -121,7 +121,7 @@ const Sidebar = () => {
           type="password"
           placeholder="Password"
         />
-        <button>Sign In</button>
+        <button>Нэвтрэх</button>
       </Form>
       <div>
         <Terms>
@@ -129,7 +129,7 @@ const Sidebar = () => {
           Service
         </Terms>
         <h4>
-          Don't have an account?{" "}
+          Таньд хаяг байгаа юуу?{" "}
           <span onClick={() => setToggle(!toggle)}>Sign Up</span>
         </h4>
       </div>

@@ -18,7 +18,7 @@ export const ProtectedRoute = ({ component: Component, ...rest }) => {
         {...rest}
         render={(props) => {
           if (myStatus) {
-            console.log("Authentication Success");
+            console.log("Амжилттай нэвтэрлээ");
 
             return <Component {...props} />;
           } else {
